@@ -1,0 +1,68 @@
+<html>
+	<body>
+	
+	
+	<%@page import="java.sql.*" %>
+	<%
+	
+	String name=request.getParameter("name");
+	
+	String pass=request.getParameter("pass");
+       session.setAttribute("usern",name);
+       
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","eexhibition","jagraj");
+			
+			Statement st=con.createStatement();
+			ResultSet rs=st.executeQuery("select * from login");
+			int flag=0,a=0,d=0;
+					while(rs.next())
+					{
+					        
+					        if((rs.getString(1).equals(name))&&(rs.getString(2).equals(pass)))
+							{
+							  flag=1;
+							  if(rs.getString(3).equals("admn"))
+							  {a=1;
+							  }
+							  if(rs.getString(3).equals("dept"))
+							  {d=1;
+							  }
+						      break;
+							}
+					}
+					st.close();
+					rs.close();
+					con.close();
+					if(flag==1)
+					{
+					if(a==1)
+					{
+					%>
+							<jsp:forward page="Admin.jsp" />
+					<%	
+					}
+					
+					if(d==1)
+					{
+					
+					%>
+							<jsp:forward page="dept.jsp" />
+					<%	
+					}
+					%>
+							<jsp:forward page="ngos.jsp" />
+					<%	
+					}
+					
+				   else{
+					%>
+							<jsp:forward page="wrong.jsp" />
+					<%	
+				   }
+					 
+			%>
+	
+	</body> 
+	 
+</html>
