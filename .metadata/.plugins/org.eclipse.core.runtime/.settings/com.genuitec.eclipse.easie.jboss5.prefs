@@ -1,8 +1,0 @@
-#Thu Oct 16 15:43:47 EDT 2014
-SERVER_NAME=JBoss
-LIBRARY_PATH="C\:\\Users\\hp world\\AppData\\Local\\Genuitec\\Common\\binary\\com.sun.java.jdk.win32.x86_1.6.0.013\\bin"
-eclipse.preferences.version=1
-JDK_HOME=C\:\\Users\\hp world\\AppData\\Local\\Genuitec\\Common\\binary\\com.sun.java.jdk.win32.x86_1.6.0.013
-ENDORSED_DIRS="C\:\\comp303intall\\jboss-as-7.1.1.Final\\bin\\lib\\endorsed"
-SERVER_STARTUP_ARG=-c JBoss
-JBOSS_HOME=C\:\\comp303intall\\jboss-as-7.1.1.Final\\bin
