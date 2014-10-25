@@ -5,9 +5,179 @@
       <description>Pipes Output</description>
       <link>http://pipes.yahoo.com/pipes/pipe.info?_id=790c1cc25610e6b571d4857eaeb44fa4</link>
       <atom:link rel="next" href="http://pipes.yahoo.com/pipes/pipe.run?_id=790c1cc25610e6b571d4857eaeb44fa4&amp;_render=rss&amp;page=2" />
-      <pubDate>Fri, 17 Oct 2014 18:56:35 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2014 16:25:45 +0000</pubDate>
       <generator>http://pipes.yahoo.com/pipes/</generator>
       <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+         <title>JBoss Tools and Developer Studio for Eclipse Luna</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/My6ynURHN_w/2014-10-22-GA-for-luna.html</link>
+         <description>&lt;div id="preamble"&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The day has finally come!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/downloads/jbosstools/luna/4.2.0.Final.html"&gt;JBoss Tools 4.2&lt;/a&gt; and &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/downloads/devstudio/luna/8.0.0.GA.html"&gt;Red Hat JBoss Developer Studio 8&lt;/a&gt; for Eclipse Luna is now available.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="JBoss Developer Studio 8 Splashscreen"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="installation"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#installation"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/downloads/devstudio/luna/8.0.0.GA.html"&gt;download it&lt;/a&gt; and install it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-{version}-installer-{standalone|eap}.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;JBoss Tools or JBoss Developer Studio Bring-Your-Own-Eclipse (BYOE) requires a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.4 (Luna) but we recommend using the
+      &lt;a rel="nofollow" target="_blank" href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr1"&gt;Eclipse Luna SR1 Java EE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on Eclipse Marketplace under "JBoss Tools (Luna)" or "JBoss Developer Studio (Luna)".&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;For JBoss Tools you can also use our update site directly if you are up for it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/updates/stable/luna/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="what-is-new"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#what-is-new"&gt;&lt;/a&gt;What is new ?&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;There have been many feature additions and a lot of bugfixing polish going into this main release and these have been documented/described in details at &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html"&gt;What’s New&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The main headlines are:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;Better &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#aerogear"&gt;Apache Cordova Tooling&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#early-access"&gt;Early Access&lt;/a&gt; section in JBoss Central&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Better &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#javascript-editing-improvements"&gt;JavaScript content assist via Tern&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#angularjs-eclipse-plugin-integration"&gt;Experimental AngularJS&lt;/a&gt; support&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#ionic"&gt;Ionic Palette&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#start-an-application-from-quickstarts"&gt;OpenShift Quickstarts&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#forge"&gt;Forge 2 Integrated&lt;/a&gt; (Forge 1 deprecated)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#browsersim"&gt;BrowserSim&lt;/a&gt; using JavaFX Webbrowser&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#jmx-enhanced-with-jvm-monitor"&gt;JMX/VM Monitoring&lt;/a&gt; of local process&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#html-preview-as-a-part-of-vpe"&gt;HTML5 visual preview&lt;/a&gt; and navigation&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#server"&gt;Deployment via WildFly/EAP Management API’s&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#server"&gt;Support remote only&lt;/a&gt; Server runtimes&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html#classpath-containers-will-also-support-jboss-modules-dependencies"&gt;Support JBoss Modules&lt;/a&gt; dependencies&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;..and &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/whatsnew/jbosstools/4.2.0.Final.html"&gt;much more&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="where-is-integration-stack-tooling"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#where-is-integration-stack-tooling"&gt;&lt;/a&gt;Where is integration stack tooling ?&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The integration stack covers the tooling for Fuse, Drools, jBPM, SwitchYard, JBoss ESB etc.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;I’m happy to announce that we for now have made them available as "Early access" in JBoss Tools under JBoss Central Software/Update page.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;In the near future it is planned to also show up in JBoss Developer Studio and eventually be available as fully supported.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="thank-you"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#thank-you"&gt;&lt;/a&gt;Thank You!&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;This release would not have been possible without feedback and contributions from our community and the team(s) around Developer Studio. For that I’m truly grateful. Any contribution count!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The following people that have participated in this release with either code, ideas, feedback and testing:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Alexander Silgidjian, Alexey Pakseykin, Andrei Ivanov, Andy Goldstein, Antonio Goncalves, Asif Kilwani, Axel Wathne, Chris West, Chunyun Chen, Clovis Seragiotto,
+      Cody Lerum, Cojan van Ballegooijen, Daniel Castro, Daniel Cunha, Daniel Dekany, Darren hartford, Darryl Miles, Eduardo de souza, Emily Brand, Ender Wiggin, Eric Barber,
+      Filippo rossoni, Guillaume Jouvelot, Harald Wellmann, Henk de boer, Hermes Waldemarin, Hernán Chanfreau, Igor Jacy Lino Campista, Jeffrey Simpson, Jesper Skov, Jim Boettcher,
+      Joe Guzzardo, Jorge Yagüe París, Josh B, Juergen Zimmermann, Karl Pietrzak, Labdoui labdoui, Luke Maurer, Marcel Neuwohner, Martin Lippert, Masao Kunii, Mikhail Kalkov,
+      Nan wei, Nero M, Nicolas duminil, Oliver Pfau, Palmer Eldritch, Patrick Decat, Paul Richardson, Pei-Tang Huang, Radosław Józwik, Rainer Schön, Randall Smith, Rich DiCroce,
+      Robert Baty, Robert Munteanu, Roman Ilin, Ron Ratovsky, Sebastien Deleuze, Stephen Neal, Suz Dorfield, Sébastien Pinel, Tagir Valeev, Thiago andrade, Thomas Maslen, Weiweijiang jiang,
+      Wolfgang Knauf, Zerr Angelo, Alexander Kurtakov, Alexey Kazakov, Aliaksey Nis, Andre Dietisheim, Andrea Vibelli, Andrej Podhradsky, Arun Gupta, Aslak Knutsen, Barry LaFond,
+      Boleslaw Dawidowicz, Brenton Leanhardt, Brian Fitzpatrick, Burr Sutter, Catherine Robson, Corey Daley, Daniel Azarov, David Chia, David Hladky, David Stephan, Denis Golovin,
+      Denis Maliarevich, Duncan Doyle, Emil Cervenan, Emmanuel Bernard, Eric Rich, Fred Bricon, Gavin King, George Gastaldi, Gorkem Ercan, Ilya Buziuk, Isaac Rooskov, Jakub Niedermertl,
+      James Cobb, Jane Murphey, Jaroslav Jankovič, Jeff Cantrill, Jim Tyrrell, Jiri Pallich, Jiri Peterka, Joshua Wilson, Juraci Paixão Kröhling, Juraj Húska, Karel Piwko, Koen Aers,
+      Konstantin Marmalyukov, Krzysztof Daniel, Lars Heinemann, Len DiMaggio, Lincoln Baxter III, Lucia Jelinkova, Lukáš Fryč, Marek Novotny, Marek Schmidt, Marius Bogoevici, Marián Labuda,
+      Martin Malina, Matthias Wessendorf, Max Rydahl Andersen, Maxim Areshkau, Michelle Murray, Mickael Istria, Mustafa Musaji, Nick Boldt, Paul Leacu, Pavol Srna, Pete Muir, Peter Palaga,
+      Petr Stribny, Petr Suchý, Radim Hopp, Radoslav Rábara, Rafael Benevides, Rastislav Wagner, Rick Wagner, Rob Cernich, Rob Stryker, Robb Greathouse, Ron Šmeral, Sande Gilda, Sebastien Blanc,
+      Snjezana Peco, Stefan Bunciak, Ståle Pedersen, Tadeas Kriz, Takayuki Konishi, Tomas Repel, Tomáš Sedmík, Travis Rogers, Van Halbert, Viacheslav Kabanovich, Victor Rubezhny, Vineet Reynolds,
+      Vitali Yemialyanchyk, Vladimir Vasilev, Vlado Pakan, Vojtech Juranek, Xavier Coulon and Yahor Radtsevich.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Thank you!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;If you like to be part of shaping the next update and major release please take a look at &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/cat"&gt;JBoss Tools Community Acceptance&lt;/a&gt; program! It will start up soon!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Hope you enjoy this release and remember…​&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Have fun!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Max Rydahl Andersen+
+      &lt;a rel="nofollow" target="_blank" href="http://twitter.com/maxandersen"&gt;@maxandersen&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/My6ynURHN_w" height="1" width="1"/&gt;</description>
+         <author>maxandersen</author>
+         <guid isPermaLink="false">http://tools.jboss.org/blog/2014-10-22-GA-for-luna.html</guid>
+         <pubDate>Wed, 22 Oct 2014 00:00:00 +0000</pubDate>
+      <feedburner:origLink>http://tools.jboss.org/blog/2014-10-22-GA-for-luna.html</feedburner:origLink></item>
+      <item>
          <title>JBoss Tools Integration Stack 4.1.6.Final / JBoss Developer Studio Integration Stack 7.0.3.GA</title>
          <link>http://feedproxy.google.com/~r/jbossbuzz/~3/szMWUaqQq3I/2014-10-09-JBTIS-4.html</link>
          <description>&lt;div id="preamble"&gt;
@@ -3729,4 +3899,4 @@ Petals Studio was also the pretext to start using <a rel="nofollow" target="_bla
          </media:content>
       <feedburner:origLink>http://mickaelistria.wordpress.com/2012/01/31/goodbye-petalslink-hello-jbossred-hat/</feedburner:origLink></item>
    </channel>
-</rss><!-- fe5.yql.bf1.yahoo.com compressed/chunked Fri Oct 17 18:56:28 UTC 2014 -->
+</rss><!-- fe1.yql.bf1.yahoo.com compressed/chunked Thu Oct 23 16:25:37 UTC 2014 -->
