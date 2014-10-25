@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-time="1" hostname="localhost" id="JBoss 7.1 Runtime Server1413906000311" name="JBoss 7.1 Runtime Server" org.jboss.ide.eclipse.as.core.server.attributes.startupPollerKey="org.jboss.ide.eclipse.as.core.server.JBoss7ManagerServicePoller" org.jboss.ide.eclipse.as.core.server.deployDirectoryType="server" org.jboss.ide.eclipse.as.core.server.serverMode="local" org.jboss.ide.eclipse.as.core.server.webPort="8080" org.jboss.ide.eclipse.as.core.server.webPortAutoDetect="true" runtime-id="JBoss 7.1 Runtime" server-type="org.jboss.ide.eclipse.as.71" server-type-id="org.jboss.ide.eclipse.as.71" start-timeout="450" stop-timeout="450" timestamp="2">
-    <list key="modules" value0="eExhibition::org.eclipse.jst.jee.server:eExhibition::jst.web::3.0" value1="eExhibitionEAR::org.eclipse.jst.jee.server:eExhibitionEAR::jst.ear::6.0"/>
+  <server auto-publish-time="1" hostname="localhost" id="JBoss 7.1 Runtime Server1413579434611" name="JBoss 7.1 Runtime Server" org.jboss.ide.eclipse.as.core.server.attributes.startupPollerKey="org.jboss.ide.eclipse.as.core.server.JBoss7ManagerServicePoller" org.jboss.ide.eclipse.as.core.server.deployDirectoryType="server" org.jboss.ide.eclipse.as.core.server.serverMode="local" org.jboss.ide.eclipse.as.core.server.webPort="8080" org.jboss.ide.eclipse.as.core.server.webPortAutoDetect="true" runtime-id="JBoss 7.1 Runtime" server-type="org.jboss.ide.eclipse.as.71" server-type-id="org.jboss.ide.eclipse.as.71" start-timeout="450" stop-timeout="450" timestamp="4">
+    <list key="modules"/>
   </server>
 </servers>
